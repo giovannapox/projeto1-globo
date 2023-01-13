@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: 'Encode Sans', sans-serif;
+    overflow-y: hidden;
+}
+
+.topo{
+    height: 80px;
+    border-bottom: 1px solid #f5f6f7;
+    width: 1250px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu{
+    border-bottom: 1px solid #f5f6f7;
+    font-size: 19px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0,02em;
+    line-height: 24px;
+    align-items: center;
+    height: 40px;
+    width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.g1{
+    color: #C3170C;
+}
+
+.globo{
+    color: #1E4B9B;
+}
+
+.valor{
+    color: #006766;
+}
+
+.ge{
+    color: #07AA47;
+}
+
+.cartola{
+    color: #E3662B;
+}
+
+.globoplay{
+    color: #FB0735;
+}
+
+.dropz{
+    color: #FF75BB;
+}
+
+.gshow{
+    color: #EC7D00;
+}
+
+.quem{
+    color: #323333;
+}
+
+.receitas{
+    color: #A81D83;
+}
+
+.container{
+    height: 845px;
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.materias{
+    height: 845px;
+    width: 625px;
+    border-right: 1px solid #EBEDEF;
+}
+
+.materiaPrincipal{
+    font-weight: bold;
+    font-size: 52px;
+    color: #C4160C;
+}
+
+.materiaSecundaria{
+    font-size: 18px;
+    font-weight: 500;
+    color: #303134;
+    margin-top: 25px;
+}
+
+.materiasFotos{
+    border-bottom: 1px solid #EBEDEF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+
+.materiasTexto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+img{
+    border-radius: 12px;
+}
+
+.imgMateria{
+    width: 193px;
+    height: 110px;
+}
+
+.materia1{
+    width: 193px;
+}
+
+.materia2{
+    width: 193px;
+}
+
+.materia3{
+    width: 193px;
+}
+
+.materia4{
+    margin-top: 14px;
+    width: 193px;
+}
+
+.materia5{
+    width: 193px;
+    margin-top: 14px;
+}
+
+.materia6{
+    width: 193px;
+    margin-top: 14px;
+}
+
+.titulo{
+    color: #C4170C;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-top: 11px;
+}
+
+.subtitulo{
+    color: #2F3134;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    margin-top: 6px; 
+}
+
+.rodapeMateria{
+    color: #2F3134;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    margin-top: 4.5px;
+    margin-bottom: 36px;
+}
+
+.noticiasCol1{
+    width: 310px;
+    height: 845px; 
+    border-right: 1px solid #EBEDEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticiasCol2{
+    width: 310px;
+    height: 845px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticia1{
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.noticia2{
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.noticia3{
+    width: 240px;
+}
+
+.noticia4{
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.noticia5{
+    width: 240px;
+}
+
+.noticia6{
+    width: 240px;
+}
+
+
+.tituloNoticias{
+    color: #16AE54;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    letter-spacing: -0.02em;
+    margin-top: 4px;
+}
+
+.subtituloNoticia{
+    color: #2F3134;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    margin-top: 4px;
+}
+
+.rodapeNoticia{
+    color: #2F3134;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    margin-top: 3px;
+}
+
+.tituloNoticias2{
+    color: #EC8006;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.5px;
+    margin-top: 4px;
+    height: 19px;
+}
